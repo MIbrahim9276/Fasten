@@ -1,0 +1,15 @@
+FastPeriod():
+    Timer: float
+    Start: string
+    End: string
+    Alarms: list[string]
+
+TrackGraph():
+    Completed: int
+    Average: float
+    LongestFast: float
+    LongestStreak: int
+    CurrentStreak: int
+
+    Goal: list[float]
+    ReachedGoal: list[bool]
