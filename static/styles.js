@@ -17,26 +17,36 @@ const css = StyleSheet.create({
   },
   timerScreen: {
     width: width,
+    paddingTop: "5%",
     alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "lightskyblue"
+    borderRightWidth: 2
   },
   graphScreen: {
     width: width,
     alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "lightpink"
+    justifyContent: "center"
   },
   topBar: {
     height: "10%",
     alignItems: "center",
     justifyContent: "flex-end",
-    paddingBottom: "4%"
+    paddingBottom: "4%",
+    borderBottomWidth: 2
   },
   title: {
     fontSize: 20,
-    fontWeight: "900",
+    fontWeight: "bold",
     letterSpacing: 3
+  },
+  timerText: {
+    fontSize: 20,
+    fontWeight: "bold"
+  },
+  timerButtonsSection: {
+    flex: 1,
+    width: "100%",
+    backgroundColor: "lightskyblue",
+    marginTop: "10%"
   }
 });
 
