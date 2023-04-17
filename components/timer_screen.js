@@ -11,7 +11,7 @@ import {View, Dimensions, Button} from "react-native";
 
 import Timer from "./timer";
 import TimePicker from "./time_picker";
-import {getTime, getTimeParts} from "../static/utils";
+import {getTime} from "../static/utils";
 import css from "../static/styles";
 
 export default function TimerScreen() {
