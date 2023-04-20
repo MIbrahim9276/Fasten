@@ -11,3 +11,7 @@ TrackGraph():
     CurrentStreak: int
     Goal: list[float]
     ReachedGoal: list[bool]
+
+Settings():
+    SetStart()
+    SetEnd()
