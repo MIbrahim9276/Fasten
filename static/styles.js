@@ -13,5 +13,20 @@ export const css = StyleSheet.create({
     height: "100%",
     alignItems: "center",
     justifyContent: "center"
+  },
+
+  settings: {
+    justifyContent: "space-evenly"
+  },
+
+  settingsSection: {
+    width: "80%",
+    height: "20%",
+    borderRadius: 20
+  },
+  timePicker: {
+    flex: 1,
+    overflow: "hidden",
+    borderRadius: 20
   }
 });

@@ -7,14 +7,25 @@ LICENSE file in the root directory of this source tree.
 */
 
 import { View } from "react-native";
-import { Text } from "react-native-paper";
 
-import { css } from "./static/styles";
+import SettingsSection from "../components/settings_section";
+import TimePicker from "../components/time_picker";
+
+import { css } from "../static/styles";
 
 export default function SettingsRoute() {
   return (
-    <View style={css.main}>
-      <Text>Settings</Text>
+    <View style={[css.main, css.settings]}>
+      <SettingsSection>
+        <TimePicker
+          title="Start"
+          onConfirm={() => {}} />
+      </SettingsSection>
+      <SettingsSection>
+        <TimePicker
+          title="End"
+          onConfirm={() => {}} />
+      </SettingsSection>
     </View>
   );
 }

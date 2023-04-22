@@ -6,15 +6,14 @@ This source code is licensed under the BSD-style license found in the
 LICENSE file in the root directory of this source tree.
 */
 
-import { View } from "react-native";
-import { Text } from "react-native-paper";
+import { Surface } from "react-native-paper";
 
 import { css } from "../static/styles";
 
-export default function TimerRoute() {
+export default function SettingsSection(props) {
   return (
-    <View style={css.main}>
-      <Text>Timer</Text>
-    </View>
+    <Surface style={css.settingsSection} elevation={1}>
+      {props.children}
+    </Surface>
   );
 }

@@ -9,7 +9,7 @@ LICENSE file in the root directory of this source tree.
 import { View } from "react-native";
 import { Text } from "react-native-paper";
 
-import { css } from "./static/styles";
+import { css } from "../static/styles";
 
 export default function GraphRoute() {
   return (

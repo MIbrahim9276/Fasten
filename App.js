@@ -9,9 +9,9 @@ LICENSE file in the root directory of this source tree.
 import { useState } from 'react';
 import { Provider as PaperProvider, BottomNavigation } from 'react-native-paper';
 
-import TimerRoute from './timer_route';
-import GraphRoute from './graph_route';
-import SettingsRoute from './settings_route';
+import TimerRoute from './routes/timer_route';
+import GraphRoute from './routes/graph_route';
+import SettingsRoute from './routes/settings_route';
 
 export default function App() {
   const [index, setIndex] = useState(0);
