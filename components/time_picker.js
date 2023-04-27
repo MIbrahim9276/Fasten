@@ -29,7 +29,7 @@ const customStyle = StyleSheet.create({
 });
 
 export default function TimePicker(props) {
-  const [selectedTime, setSelectedTime] = useState(splitTime());
+  const [selectedTime, setSelectedTime] = useState(splitTime(props.initial));
   const [isPickerVisible, setIsPickerVisible] = useState(false);
 
   const isDark = useColorScheme() === "dark";
